@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet" type="text/css"> -->
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <table border="1px" width="100%">   
+            <tr>
+                <th>111</th>         
+                <th>111</th>         
+                <th>111</th>         
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+        </table>
+
+
+        <p style="border: dotted;">dotted</p>
+        <p style="border: dashed;">dashed</p>
+        <p style="border: solid;">solid</p>
+        <p style="border: double;">double</p>
+        <p style="border: inset;">inset</p>
+        <p style="border: outset;">outset</p>
+
+        <style>
+            #first{
+                border: solid;
+                /* border-width: 1px; */
+                border-color: blue;
+                border-top-width: 1px;
+                border-left-width: 2px;
+                border-right-width: 10px;
+                border-bottom-width: 4px;
+            }
+            #second{
+                border: solid;
+                /* border-width: 3px; */
+                border-width: 5px;
+                border-top-color: red;
+                border-bottom-color: green;
+                border-left-color: yellow;
+                border-right-color: purple;
+            }
+            #third{
+                border: 5px red solid;
+                border-radius: 5px;
+            }
+            p{
+                /* background-color: yellow; */
+                background-image: url("images/profile.jpg");
+                background-position-y: -200px;
+                background-position-x: 200px;
+            }
+            .first{
+                /* visibility: hidden; */
+                display: inline;
+            }
+            .second{
+                display: block;
+            }
+        </style>
+        <img class="first" src="images/profile.jpg" height="100px"/>
+        <img src="images/profile.jpg" height="100px"/>
+        <img class="second" src="images/profile.jpg" height="100px"/>
+        <hr/>
+        <img class="second" src="images/profile.jpg" height="100px"/>
+        <img src="images/profile.jpg" height="100px"/>
+        
+
+
+        <p style="color: white; height: 30vh;">배경을 표시</p>
+        <p id="first">1px</p>
+        <p id="second">3px</p>
+        <p id="third">5px</p>
+
+        <div>            
+            <!-- <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"/> -->
+            <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
+            <input type="search" value="검색"/>
+        </div>
+        <div id="profile">
+            <img src="images/profile.jpg" height="60px:"
+            style="border: solid; border-color: red;"/>
+            <div>
+                <h2>half_bottle</h2>
+                <button>프로필 편집</button>
+            </div>
+        </div>
+        
+        <div>
+            <p>
+                <strong>
+                    zerom
+                </strong><br/>
+                작가
+            </p>
+        </div>
+        <div><a href="https://github.com/devtiboy">devtiboy.github.io</a></div>
+        <div>하이라이트가 들어갈 자리</div>
+        <div class="highlight">
+            <div><img src="images/hl 1.jpg" height="35px"/></div>
+            <div>😎</div>
+            <div><img src="images/hl 2.jpg" height="35px"/></div>
+            <div>🥰</div>
+        </div>
+        <div>
+            
+            <div>게시물<br/>
+                133
+            </div>
+            <div>
+                팔로워<br/>
+                408
+            </div>
+            <div>
+                팔로우<br/>
+                189
+            </div>        
+        </div>    
+        <div>아이콘이 들어갈 자리</div>        
+        <!-- <div>
+            <img src="images/thumbnails/1.jpg" width="32%"/>
+            <img src="images/thumbnails/2.jpg" width="32%"/>
+            <img src="images/thumbnails/3.jpg" width="32%"/>
+            <img src="images/thumbnails/4.jpg" width="32%"/>
+            <img src="images/thumbnails/5.jpg" width="32%"/>
+            <img src="images/thumbnails/6.jpg" width="32%"/>
+            <img src="images/thumbnails/7.jpg" width="32%"/>
+            <img src="images/thumbnails/8.jpg" width="32%"/>
+            <img src="images/thumbnails/9.jpg" width="32%"/>            
+        </div> -->
+        <div id="fontcss">a css style example</div>
+        <div>게시물 썸네일이 들어갈 자리</div>      
+        <div>
+            <input type="number" value="123"/><br/>
+            <input type="password" value="텍스트"/><br/>
+            <input type="tel" value="111"/><br/>
+            <input type="search" value="111"/><br/>
+            <input type="email" value="e"/><br/>
+            <input type="button" value="111"/><br/>
+            <input type="submit" value="111"/><br/>
+            <input type="file" accept="image/*"/><br/>
+            <input type="file" accept=".jpg, .png"/><br/>
+            <input type="color" value="#ff0000"/><br/>
+            <input type="checkbox" checked/><br/>
+        </div>  
+        <p>
+            <input type="radio" name="radio1" checked/>한식
+            <input type="radio" name="radio1"/>중식
+            <input type="radio" name="radio1"/>양식
+            <input type="radio" name="radio1"/>일식
+        </p>
+        <p>
+            <input type="radio" checked/>한식
+            <input type="radio" />중식
+            <input type="radio" />양식
+            <input type="radio" />일식
+        </p>
+        <p>
+            <input type="range" min="0" max="1000" step="10"/>
+            <input type="range" min="0" max="1000" step="10" value="10"/>
+        </p>
+        <p>
+            <input type="date"/><br/>
+            <input type="month"/><br/>
+            <input type="week"/><br/>
+            <input type="time"/><br/>
+            <input type="datetime-local"/>
+        </p>
+        <div class="myclass" id="myid">hello</div>
+    </body>
+</html>
