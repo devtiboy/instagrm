@@ -1,108 +1,141 @@
 <!DOCTYPE html>
 <html>
-    <head>
-         <link href="style.css" rel="stylesheet">
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    </head>
-    <body>
- 
-        <div id="top">            
-            <!-- <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"/> -->
-            <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
-            <input type="search" value="🔍검색"/>
-            <div>
-                <i class="fas fa-home"></i>
-                <i class="far fa-paper-plane"></i>
-                <i class="far fa-compass"></i>
-                <i class="far fa-heart"></i>
-            
-            </div>
-              
-        </div>
-        <div id="profile">
-            <div id="profile_pic">
-                <img class="circle_pic" src="images/profile.jpg"/>
-            </div>
-            <div id="profile_info">
-                <!-- <h2>half_bottle</h2> -->
-                <div id="id">half_bottle</div>
-                <button>프로필 편집</button>
-            </div>
-        </div>
-        
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="jsscript_src.js"></script>
+</head>
+
+<body>
+    <div></div>
+    <script>
+        // let a = document.querySelector("div")
+        // a.innerHTML = "<h1>innerHTML</h1><p>태그 내부에 태그를 삽입하자.</p>"
+    </script>
+    <!-- <script src="jsscript_src.js"></script> -->
+    <!-- <input type="button" value="버튼" />
+     <script>
+                    let button = document.querySelector("input")
+                    button.addEventListener("click",
+                        function(e){
+                            console.log(e.target.value);
+                        }
+                    ) 
+                </script> 
+
+    <p onclick="hi()">click here</p> -->
+
+    <!-- <div>
+        <strong>이름</strong><span id="nameHere">None</span>
+        <input id="nameEditButton" type="button" value="수정"/>
+    </div>
+
+    <div id="editNameField" style="display:none">
+        <input id="newName" type="text" value="새 이름 입력"/>
+        <input id="okButton" type="button" value="확인"/>
+    </div> -->
+    <div id="top">
+        <img src="images/555.png">
+        <input type="search" value="🔍검색" />
         <div>
-            <p>
-                <strong>
-                    zerom(새로운 인생의 시작)
-                </strong><br/>
-                작가
-            </p>
+            <i class="fas fa-home"></i>
+            <i class="far fa-paper-plane"></i>
+            <i class="far fa-compass"></i>
+            <i class="far fa-heart"></i>
+
         </div>
-        <div><a href="https://github.com/devtiboy">devtiboy.github.io</a></div>
-        <div>하이라이트가 들어갈 자리</div>
-        <div id="highlight_area">
-            <div class="highlight">
-                <div class="highlight_pic"><img class="circle_pic" src="images/hl 1.jpg"/></div>
-                <div>😎</div>
-            </div>
-            <div class="highlight">
-                <div class="highlight_pic"><img class="circle_pic" src="images/hl 2.jpg"/></div>
-                <div>🥰</div>
-            </div>
-            <div></div>
+
+    </div>
+    <div id="profile">
+        <div id="profile_pic">
+            <img class="circle_pic" src="images/123.png" />
         </div>
-        <div id="stat_bar">            
-            <div class="stat">
-                게시물<br/>
-                133
+        <div id="profile_info">
+            <!-- <h2>half_bottle</h2> -->
+            <div id="id">
+                <span>half_bottle</span>
+                <i class="fas fa-cog"></i>
             </div>
-            <div class="stat">
-                팔로워<br/>
-                408
-            </div>
-            <div class="stat">
-                팔로우<br/>
-                189
-            </div>        
-  
+            <button>프로필 편집</button>
         </div>
-        <div>아이콘이 들어갈 자리</div>   
-        <div id="sub_icons">
-            <div class="selected">
-                <i class="fas fa-border-all"></i>
-            </div>
-            <div>
-                <i class="fas fa-film"></i>
-            </div>
-            <div>
-                <i class="far fa-play-circle"></i>
-            </div>
-            <div>
-                <i class="far fa-bookmark"></i>
-            </div>
-            <div>
-                <i class="fas fa-user-tag"></i>
-            </div>
-        </div>     
+    </div>
+
+    <div>
+        <p>
+            <strong id="userInfo">cocos</strong><br/>
+            <span id="summary">작가</span>
+        </p>
+    </div>
+    <p id="profileDetail">
+        <a href="https://github.com/devtiboy">devtiboy.github.io</a>
+    </p>
+<!--     
+    <div>하이라이트가 들어갈 자리</div>
+    <div id="highlight_area">
+        <div class="highlight">
+            <div class="highlight_pic"><img class="circle_pic" src="images/hl 1.jpg" /></div>
+            <div>😎</div>
+        </div>
+        <div class="highlight">
+            <div class="highlight_pic"><img class="circle_pic" src="images/hl 2.jpg" /></div>
+            <div>🥰</div>
+        </div>
+        <div></div>
+    </div>
+    <div id="stat_bar">
+        <div class="stat">
+            게시물<br />
+            133
+        </div>
+        <div class="stat">
+            팔로워<br />
+            408
+        </div>
+        <div class="stat">
+            팔로우<br />
+            189
+        </div>
+
+    </div>
+    <div>아이콘이 들어갈 자리</div>
+    <div id="sub_icons">
+        <div class="selected">
+            <i class="fas fa-border-all"></i>
+        </div>
         <div>
-            <div class="thumbnail_grid">
-                <img src="images/thumbnails/1.jpg"/>
-                <img src="images/thumbnails/2.jpg"/>
-                <img src="images/thumbnails/3.jpg"/>
-            </div>
-            <div class="thumbnail_grid">
-                <img src="images/thumbnails/4.jpg"/>
-                <img src="images/thumbnails/5.jpg"/>
-                <img src="images/thumbnails/6.jpg"/>
-            </div>
-            <div class="thumbnail_grid">
-                <img src="images/thumbnails/7.jpg"/>
-                <img src="images/thumbnails/8.jpg"/>
-                <img src="images/thumbnails/9.jpg"/>            
-            </div>
+            <i class="fas fa-film"></i>
         </div>
-        <div id="fontcss">a css style example</div>
-        <div>게시물 썸네일이 들어갈 자리</div>      
-      
-    </body>
+        <div>
+            <i class="far fa-play-circle"></i>
+        </div>
+        <div>
+            <i class="far fa-bookmark"></i>
+        </div>
+        <div>
+            <i class="fas fa-user-tag"></i>
+        </div>
+    </div>
+    <div>
+        <div class="thumbnail_grid">
+            <img src="images/thumbnails/1.jpg" />
+            <img src="images/thumbnails/2.jpg" />
+            <img src="images/thumbnails/3.jpg" />
+        </div>
+        <div class="thumbnail_grid">
+            <img src="images/thumbnails/4.jpg" />
+            <img src="images/thumbnails/5.jpg" />
+            <img src="images/thumbnails/6.jpg" />
+        </div>
+        <div class="thumbnail_grid">
+            <img src="images/thumbnails/7.jpg" />
+            <img src="images/thumbnails/8.jpg" />
+            <img src="images/thumbnails/9.jpg" />
+        </div>
+    </div> -->
+    <div id="fontcss">a css style example</div>
+    <div>게시물 썸네일이 들어갈 자리</div>
+
+</body>
+
 </html>

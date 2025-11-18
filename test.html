@@ -4,6 +4,36 @@
 
     </head>
     <body>
+        <style>
+            /* @media(max-width:600px){
+                p {background-color: pink;}
+            }
+            @media(min-width:600px){
+                p {background-color: skyblue;}
+            } */
+            img{
+                height: 200px;
+            }
+            @media(max-width:600px){
+                p {background-color: pink;}
+                /* img {display: none;} */
+                .desktop{display: none;}
+                .mobile{display: block;}
+            }
+            @media(min-width:600px){
+                p {background-color: skyblue;}
+                /* img {display: block;} */
+                .desktop{display: block;}
+                .mobile{display: none;}
+            }
+        </style>
+        <img class="desktop" src="images/profile.jpg" />
+        <p>
+            화면색이?
+        </p>
+        <img class="mobile" src="images/profile.jpg" />
+
+
         <!-- <style>
             .myGrid{
                 display: grid;
@@ -21,7 +51,7 @@
             <div id="third">3번 영역</div>
             <div id="fourth">4번 영역</div>
         </div> -->
-        <style>
+        <!-- <style>
             div{
                 width: 150px;
                 height: 150px;
@@ -34,9 +64,9 @@
                 border: solid white 1px;
                 border-radius: 50%;
             }
-        </style>
-        <div>
+        </style> -->
+        <!-- <div>
             <img src="images/hl 1.jpg"/>
-        </div>
+        </div> -->
     </body>
 </html>
